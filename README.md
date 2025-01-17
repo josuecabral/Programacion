@@ -22,9 +22,9 @@ while contador < posicion:
 
     #se crea una variable la cual suma los 3 primeros elemenos de la lista
     
-    #proxpos = 2023 + 2024 + 2025 = 6072
-    
     proxpos = lista[p1] + lista[p2] + lista [p3]
+
+    #proxpos = 2023 + 2024 + 2025 = 6072
     
     #Se agrega este nuevo valor a la lista
     
@@ -35,7 +35,6 @@ while contador < posicion:
     del lista[0]
     
     contador = contador + 1
-    
 
 #Por ultimo mostramos el resultado de la posicion deseada
 
