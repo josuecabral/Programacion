@@ -1,8 +1,11 @@
 Lo realice con la siguiente logica, se que no es la manera correcta ya que tiene una demora considerable al ejecutarlo pero funciona (de ser necesario probar con posicion 50). Sé que las herramientas estan ahi (internet) y son muy utiles pero quise realizarlo por mi cuenta:
 
 #Se crean las 3 primeras posiciones
+
 p1 = 0
+
 p2 = 1
+
 p3 = 2
 
 #Se crea una lista con las posiciones iniciales
