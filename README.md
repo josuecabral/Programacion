@@ -6,26 +6,40 @@ p2 = 1
 p3 = 2
 
 #Se crea una lista con las posiciones iniciales
+
 lista = [2023,2024,2025]
 
-#Se imprime longitud de la lista solo por chequear posiciones
-print(len(lista))
 contador = 0
+
 posicion = 2023202320232023 - 3
-#bucle hasta una posicion determinada
+
+#Se crea un bucle con un contador hasta una posicion determinada (menos 3 ya que la lista contiene 3 posiciones iniciales)
+
 while contador < posicion:
+
     #se crea una variable la cual suma los 3 primeros elemenos de la lista
+    
     #proxpos = 2023 + 2024 + 2025 = 6072
+    
     proxpos = lista[p1] + lista[p2] + lista [p3]
+    
     #Se agrega este nuevo valor a la lista
+    
     lista.append(proxpos)
+
+    #Se elimina el primer valor de la lista
+    
     del lista[0]
-    #Una vez realizada la suma de esas 3 posiciones continua sumando las ultimas 3 posiciones de la lista
-    #para esto debemos indicar que sume un valor mas a cada posicion
+    
     contador = contador + 1
+    
 
 #Por ultimo mostramos el resultado de la posicion deseada
+
 print(proxpos)
+
 #buscamos los ultimos 4 digitos
+
 proxpos = str(proxpos)
+
 print(proxpos[-4:])
